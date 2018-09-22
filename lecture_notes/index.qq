@@ -1,0 +1,20 @@
+\meta
+    \title Машинное обучение для факультета математики
+    \subtitle Записки лекций
+    \author
+        Илья Щуров
+        \affiliation
+            НИУ ВШЭ
+    \link
+        Страница курса
+        \role course
+        \url http://wiki.cs.hse.ru/Машинное_обучение_на_матфаке_2018/2019
+    \link
+        Исходные коды
+        \role source
+        \url https://github.com/ischurov/math-ml-hse-2018
+    \lang ru
+
+\_include lecture02.qq
+\_include lecture03.qq
+
