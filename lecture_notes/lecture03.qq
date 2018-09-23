@@ -105,13 +105,13 @@ $f$, которая бы минимизировала это число.
 \eq
     \EPE(f)=\mathbb E_{x\sim X}\mathbb E_{y\sim Y\mid X=x}[L(y, f(x))\mid X=x].
 Чтобы минимизировать эту штуку, нам нужно для каждого фиксированного $x$
-минимизировать величину $E_{y\sim Y\mid X=x}[L(y, f(x))\mid X=x]$. Для
+минимизировать величину $\mathbb E_{y\sim Y\mid X=x}[L(y, f(x))\mid X=x]$. Для
 фиксированного $x$ значение $f(x)$ — это просто число (обозначим его через
 $\hat y$), то есть мы свели задачу к оптимизации функции одной переменной $\hat
 y$:
 
 \eq
-    E_{y\sim Y\mid X=x}[L(y, \hat y)\mid X=x] \to \min_{\hat y}.
+    \mathbb E_{y\sim Y\mid X=x}[L(y, \hat y)\mid X=x] \to \min_{\hat y}.
 Для квадратичной функции потерь $L(y, \hat y)=(y - \hat y)^2$ имеем:
 \eq
     \int_{\mathbb R} (y-\hat y)^2 p_{Y|X}(y|x)\,dy\to \min_{\hat y}
